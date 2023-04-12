@@ -3,11 +3,11 @@ digraph G {
     rankdir=LR
     node [ style =rounded, shape= circle]
 
-    0 -> NAND [label= in]
-    0 -> OR [label= in];
+    input1 -> NAND [label= in]
+    input1 -> OR [label= in];
 
-    1 -> NAND [label=in]
-    1 -> OR [label=in];
+    input2 -> NAND [label=in]
+    input2 -> OR [label=in];
     NAND -> XOR [label=h];
     OR -> XOR
     XOR -> prediction[label = output];
