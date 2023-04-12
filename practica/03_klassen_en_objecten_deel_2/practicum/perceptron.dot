@@ -1,0 +1,11 @@
+digraph G {
+
+    rankdir=LR
+    splines=line
+
+    deltaBias -> weighted_sum [label=b]
+    inputVector -> weighted_sum [label=w];
+    x1 -> weighted_sum [label=w1];
+    weighted_sum -> activation
+    activation -> prediction
+}
