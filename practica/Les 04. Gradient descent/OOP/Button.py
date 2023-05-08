@@ -11,7 +11,7 @@ class Button:
         self.backgroundColor = bgColor
         self.text = txt
 
-        self.shape = Shape()
+        #self.shape = Shape()
 
     def click(self):
 
@@ -22,14 +22,14 @@ class Button:
 # Create a button
 btn1 = Button(0, "Black")
 
-btn1.shape.width = 100
-btn1.shape.height = 100
+#btn1.shape.width = 100
+#btn1.shape.height = 100
 
 # And another
 btn2 = Button(255, "White")
 
-btn2.shape.width = 100
-btn2.shape.height = 100
+#btn2.shape.width = 100
+#btn2.shape.height = 100
 
 btn1.click()
 btn2.click()
